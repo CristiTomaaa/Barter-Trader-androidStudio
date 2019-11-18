@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgk_img"
+    android:backgroundTint="#8FFFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/iv_login_logo"
+        android:layout_width="194dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="84dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoapp" />
+
+    <EditText
+        android:id="@+id/et_login_em"
+        android:layout_width="274dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="92dp"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#ADA2A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_login_logo" />
+
+    <Button
+        android:id="@+id/btn_login_reg"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:shadowColor="#3E23A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/register"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_pw" />
+
+    <Button
+        android:id="@+id/btn_login_lg"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+
+        android:layout_marginTop="36dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+
+
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/login"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_pw" />
+
+    <Button
+        android:id="@+id/btn_login_fpw"
+        android:layout_width="210dp"
+        android:layout_height="31dp"
+
+        android:layout_marginTop="48dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:shadowColor="#3E23A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/i_forgot_my_password"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_lg"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/et_login_pw"
+        android:layout_width="274dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#ADA2A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_em" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

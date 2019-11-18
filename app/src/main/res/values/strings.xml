@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Barter Trader</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="logo">logo</string>
+
+    <string name="first_name">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="create_password">Create Password</string>
+
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Bicycles</item>
+        <item>Clothes</item>
+        <item>Gadgets</item>
+        <item>Tools</item>
+
+    </string-array>
+</resources>

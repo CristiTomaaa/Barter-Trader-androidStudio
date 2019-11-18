@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="@drawable/gradient"
+    >
+
+    <TextView
+        android:id="@+id/tv_dash_welcome"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:text="Welcome Mr. ......."
+        app:layout_constraintBottom_toTopOf="@+id/iv_dash_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_dash_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_dash_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/btn_dash_profile"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#3E23A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/ibtn_dash_gadgets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibtn_dash_bicycles"
+        android:layout_width="171dp"
+        android:layout_height="154dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ibtn_dash_clothes"
+        app:layout_constraintEnd_toStartOf="@+id/ibtn_dash_gadgets"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/bicycles_round" />
+
+    <ImageButton
+        android:id="@+id/ibtn_dash_gadgets"
+        android:layout_width="167dp"
+        android:layout_height="158dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/ibtn_dash_tools"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@mipmap/gadgets_round" />
+
+    <ImageButton
+        android:id="@+id/ibtn_dash_clothes"
+        android:layout_width="168dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibtn_dash_tools"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/clothes_round" />
+
+    <ImageButton
+        android:id="@+id/ibtn_dash_tools"
+        android:layout_width="169dp"
+        android:layout_height="159dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@mipmap/tools_round" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

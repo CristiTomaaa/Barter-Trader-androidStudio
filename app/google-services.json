@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320466945796",
+    "firebase_url": "https://barter-trader-3c566.firebaseio.com",
+    "project_id": "barter-trader-3c566",
+    "storage_bucket": "barter-trader-3c566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320466945796:android:0e1a2a9ee795d369c03251",
+        "android_client_info": {
+          "package_name": "com.example.bartertrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320466945796-d79b9lqlt0fpbjn28sepsb0dvjlqeoer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bartertrader",
+            "certificate_hash": "64a78bf10d460dbe1ac4826572f86cd8c8540f85"
+          }
+        },
+        {
+          "client_id": "320466945796-0fpkd6qgvpsodvm40qkq60a10lpcmhsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbBzOSVZbK08mI2K7wgqNqP7coVuL6mX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320466945796-0fpkd6qgvpsodvm40qkq60a10lpcmhsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
